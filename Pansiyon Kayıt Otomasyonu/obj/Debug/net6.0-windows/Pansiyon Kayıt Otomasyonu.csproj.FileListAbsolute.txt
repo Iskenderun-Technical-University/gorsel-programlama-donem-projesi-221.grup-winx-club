@@ -1,0 +1,19 @@
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\bin\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.exe
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\bin\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.deps.json
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\bin\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.runtimeconfig.json
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\bin\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.dll
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\bin\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.pdb
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon_Kayıt_Otomasyonu.Form1.resources
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon_Kayıt_Otomasyonu.FrmYeniMusteri.resources
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon_Kayıt_Otomasyonu.Properties.Resources.resources
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.AssemblyInfoInputs.cache
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.AssemblyInfo.cs
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.dll
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\refint\Pansiyon Kayıt Otomasyonu.dll
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.pdb
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.genruntimeconfig.cache
+C:\Users\Ayşegül\Desktop\Dönem Projesi\Pansiyon Kayıt Otomasyonu\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\ref\Pansiyon Kayıt Otomasyonu.dll
