@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayşegül\\Desktop\\Dönem Projesi\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu.csproj",
+      "projectUniqueName": "C:\\Users\\Ayşegül\\Source\\Repos\\gorsel-programlama-donem-projesi-221.grup-winx-club\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu.csproj",
       "projectName": "Pansiyon Kayıt Otomasyonu",
-      "projectPath": "C:\\Users\\Ayşegül\\Desktop\\Dönem Projesi\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu.csproj",
+      "projectPath": "C:\\Users\\Ayşegül\\Source\\Repos\\gorsel-programlama-donem-projesi-221.grup-winx-club\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu.csproj",
       "packagesPath": "C:\\Users\\Ayşegül\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayşegül\\Desktop\\Dönem Projesi\\Pansiyon Kayıt Otomasyonu\\Pansiyon Kayıt Otomasyonu\\obj\\",
+      "outputPath": "C:\\Users\\Ayşegül\\Source\\Repos\\gorsel-programlama-donem-projesi-221.grup-winx-club\\Pansiyon Kayıt Otomasyonu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ayşegül\\AppData\\Roaming\\NuGet\\NuGet.Config",
