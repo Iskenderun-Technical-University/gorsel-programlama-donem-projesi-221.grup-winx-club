@@ -12,8 +12,6 @@ namespace Pansiyon_Kayıt_Otomasyonu
             //yeni bir pencere açmak için kullanılır
             FrmYeniMusteri form = new FrmYeniMusteri();
             form.ShowDialog();
-            //asfs
-            //asasf
         }
     }
 }
