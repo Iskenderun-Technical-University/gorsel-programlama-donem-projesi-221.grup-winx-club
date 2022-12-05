@@ -6,5 +6,12 @@ namespace Pansiyon_Kayıt_Otomasyonu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //yeni bir pencere açmak için kullanılır
+            FrmYeniMusteri form = new FrmYeniMusteri();
+            form.ShowDialog();
+        }
     }
 }
