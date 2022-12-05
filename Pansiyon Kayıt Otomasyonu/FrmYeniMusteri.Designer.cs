@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TxtUcret = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.BtnKaydet = new System.Windows.Forms.Button();
             this.DtpCikisTarihi = new System.Windows.Forms.DateTimePicker();
             this.DtpGirisTarihi = new System.Windows.Forms.DateTimePicker();
@@ -47,6 +49,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.BtnBosOda = new System.Windows.Forms.Button();
+            this.BtnDoluOda = new System.Windows.Forms.Button();
             this.BtnOda9 = new System.Windows.Forms.Button();
             this.BtnOda8 = new System.Windows.Forms.Button();
             this.BtnOda7 = new System.Windows.Forms.Button();
@@ -56,10 +60,6 @@
             this.BtnOda3 = new System.Windows.Forms.Button();
             this.BtnOda2 = new System.Windows.Forms.Button();
             this.BtnOda1 = new System.Windows.Forms.Button();
-            this.BtnBosOda = new System.Windows.Forms.Button();
-            this.BtnDoluOda = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.TxtUcret = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +91,25 @@
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Müşteri Bilgileri";
+            // 
+            // TxtUcret
+            // 
+            this.TxtUcret.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.TxtUcret.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.TxtUcret.Location = new System.Drawing.Point(126, 331);
+            this.TxtUcret.Name = "TxtUcret";
+            this.TxtUcret.Size = new System.Drawing.Size(200, 28);
+            this.TxtUcret.TabIndex = 36;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(10, 339);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(46, 20);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "Ücret";
             // 
             // BtnKaydet
             // 
@@ -272,105 +291,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Odalar";
             // 
-            // BtnOda9
-            // 
-            this.BtnOda9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda9.Location = new System.Drawing.Point(240, 209);
-            this.BtnOda9.Name = "BtnOda9";
-            this.BtnOda9.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda9.TabIndex = 8;
-            this.BtnOda9.Text = "9";
-            this.BtnOda9.UseVisualStyleBackColor = false;
-            this.BtnOda9.Click += new System.EventHandler(this.BtnOda9_Click);
-            // 
-            // BtnOda8
-            // 
-            this.BtnOda8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda8.Location = new System.Drawing.Point(143, 209);
-            this.BtnOda8.Name = "BtnOda8";
-            this.BtnOda8.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda8.TabIndex = 7;
-            this.BtnOda8.Text = "8";
-            this.BtnOda8.UseVisualStyleBackColor = false;
-            this.BtnOda8.Click += new System.EventHandler(this.BtnOda8_Click);
-            // 
-            // BtnOda7
-            // 
-            this.BtnOda7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda7.Location = new System.Drawing.Point(26, 209);
-            this.BtnOda7.Name = "BtnOda7";
-            this.BtnOda7.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda7.TabIndex = 6;
-            this.BtnOda7.Text = "7";
-            this.BtnOda7.UseVisualStyleBackColor = false;
-            this.BtnOda7.Click += new System.EventHandler(this.BtnOda7_Click);
-            // 
-            // BtnOda6
-            // 
-            this.BtnOda6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda6.Location = new System.Drawing.Point(240, 127);
-            this.BtnOda6.Name = "BtnOda6";
-            this.BtnOda6.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda6.TabIndex = 5;
-            this.BtnOda6.Text = "6";
-            this.BtnOda6.UseVisualStyleBackColor = false;
-            this.BtnOda6.Click += new System.EventHandler(this.BtnOda6_Click);
-            // 
-            // BtnOda5
-            // 
-            this.BtnOda5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda5.Location = new System.Drawing.Point(143, 127);
-            this.BtnOda5.Name = "BtnOda5";
-            this.BtnOda5.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda5.TabIndex = 4;
-            this.BtnOda5.Text = "5";
-            this.BtnOda5.UseVisualStyleBackColor = false;
-            this.BtnOda5.Click += new System.EventHandler(this.BtnOda5_Click);
-            // 
-            // BtnOda4
-            // 
-            this.BtnOda4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda4.Location = new System.Drawing.Point(26, 127);
-            this.BtnOda4.Name = "BtnOda4";
-            this.BtnOda4.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda4.TabIndex = 3;
-            this.BtnOda4.Text = "4";
-            this.BtnOda4.UseVisualStyleBackColor = false;
-            this.BtnOda4.Click += new System.EventHandler(this.BtnOda4_Click);
-            // 
-            // BtnOda3
-            // 
-            this.BtnOda3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda3.Location = new System.Drawing.Point(240, 45);
-            this.BtnOda3.Name = "BtnOda3";
-            this.BtnOda3.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda3.TabIndex = 2;
-            this.BtnOda3.Text = "3";
-            this.BtnOda3.UseVisualStyleBackColor = false;
-            this.BtnOda3.Click += new System.EventHandler(this.BtnOda3_Click);
-            // 
-            // BtnOda2
-            // 
-            this.BtnOda2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda2.Location = new System.Drawing.Point(143, 45);
-            this.BtnOda2.Name = "BtnOda2";
-            this.BtnOda2.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda2.TabIndex = 1;
-            this.BtnOda2.Text = "2";
-            this.BtnOda2.UseVisualStyleBackColor = false;
-            this.BtnOda2.Click += new System.EventHandler(this.BtnOda2_Click);
-            // 
-            // BtnOda1
-            // 
-            this.BtnOda1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
-            this.BtnOda1.Location = new System.Drawing.Point(26, 45);
-            this.BtnOda1.Name = "BtnOda1";
-            this.BtnOda1.Size = new System.Drawing.Size(46, 38);
-            this.BtnOda1.TabIndex = 0;
-            this.BtnOda1.Text = "1";
-            this.BtnOda1.UseVisualStyleBackColor = false;
-            this.BtnOda1.Click += new System.EventHandler(this.BtnOda1_Click);
-            // 
             // BtnBosOda
             // 
             this.BtnBosOda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
@@ -393,24 +313,95 @@
             this.BtnDoluOda.UseVisualStyleBackColor = false;
             this.BtnDoluOda.Click += new System.EventHandler(this.BtnDoluOda_Click);
             // 
-            // label9
+            // BtnOda9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(10, 339);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 20);
-            this.label9.TabIndex = 35;
-            this.label9.Text = "Ücret";
+            this.BtnOda9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda9.Location = new System.Drawing.Point(230, 194);
+            this.BtnOda9.Name = "BtnOda9";
+            this.BtnOda9.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda9.TabIndex = 17;
+            this.BtnOda9.Text = "9";
+            this.BtnOda9.UseVisualStyleBackColor = false;
             // 
-            // TxtUcret
+            // BtnOda8
             // 
-            this.TxtUcret.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.TxtUcret.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.TxtUcret.Location = new System.Drawing.Point(126, 331);
-            this.TxtUcret.Name = "TxtUcret";
-            this.TxtUcret.Size = new System.Drawing.Size(200, 28);
-            this.TxtUcret.TabIndex = 36;
+            this.BtnOda8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda8.Location = new System.Drawing.Point(123, 194);
+            this.BtnOda8.Name = "BtnOda8";
+            this.BtnOda8.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda8.TabIndex = 16;
+            this.BtnOda8.Text = "8";
+            this.BtnOda8.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda7
+            // 
+            this.BtnOda7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda7.Location = new System.Drawing.Point(16, 194);
+            this.BtnOda7.Name = "BtnOda7";
+            this.BtnOda7.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda7.TabIndex = 15;
+            this.BtnOda7.Text = "7";
+            this.BtnOda7.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda6
+            // 
+            this.BtnOda6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda6.Location = new System.Drawing.Point(230, 112);
+            this.BtnOda6.Name = "BtnOda6";
+            this.BtnOda6.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda6.TabIndex = 14;
+            this.BtnOda6.Text = "6";
+            this.BtnOda6.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda5
+            // 
+            this.BtnOda5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda5.Location = new System.Drawing.Point(123, 112);
+            this.BtnOda5.Name = "BtnOda5";
+            this.BtnOda5.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda5.TabIndex = 13;
+            this.BtnOda5.Text = "5";
+            this.BtnOda5.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda4
+            // 
+            this.BtnOda4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda4.Location = new System.Drawing.Point(16, 112);
+            this.BtnOda4.Name = "BtnOda4";
+            this.BtnOda4.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda4.TabIndex = 12;
+            this.BtnOda4.Text = "4";
+            this.BtnOda4.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda3
+            // 
+            this.BtnOda3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda3.Location = new System.Drawing.Point(230, 30);
+            this.BtnOda3.Name = "BtnOda3";
+            this.BtnOda3.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda3.TabIndex = 11;
+            this.BtnOda3.Text = "3";
+            this.BtnOda3.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda2
+            // 
+            this.BtnOda2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda2.Location = new System.Drawing.Point(123, 30);
+            this.BtnOda2.Name = "BtnOda2";
+            this.BtnOda2.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda2.TabIndex = 10;
+            this.BtnOda2.Text = "2";
+            this.BtnOda2.UseVisualStyleBackColor = false;
+            // 
+            // BtnOda1
+            // 
+            this.BtnOda1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(179)))), ((int)(((byte)(39)))));
+            this.BtnOda1.Location = new System.Drawing.Point(16, 30);
+            this.BtnOda1.Name = "BtnOda1";
+            this.BtnOda1.Size = new System.Drawing.Size(46, 38);
+            this.BtnOda1.TabIndex = 9;
+            this.BtnOda1.Text = "1";
+            this.BtnOda1.UseVisualStyleBackColor = false;
             // 
             // FrmYeniMusteri
             // 
@@ -455,6 +446,10 @@
         private Label label2;
         private Label label1;
         private GroupBox groupBox2;
+        private Button BtnBosOda;
+        private Button BtnDoluOda;
+        private TextBox TxtUcret;
+        private Label label9;
         private Button BtnOda9;
         private Button BtnOda8;
         private Button BtnOda7;
@@ -464,9 +459,5 @@
         private Button BtnOda3;
         private Button BtnOda2;
         private Button BtnOda1;
-        private Button BtnBosOda;
-        private Button BtnDoluOda;
-        private TextBox TxtUcret;
-        private Label label9;
     }
 }
