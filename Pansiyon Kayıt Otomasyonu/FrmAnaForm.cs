@@ -16,5 +16,19 @@ namespace Pansiyon_Kayıt_Otomasyonu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmAdminGiriş fr = new FrmAdminGiriş();
+            fr.ShowDialog();
+            this.Hide();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmYeniMusteri fr = new FrmYeniMusteri();
+            fr.ShowDialog();
+        }
     }
 }

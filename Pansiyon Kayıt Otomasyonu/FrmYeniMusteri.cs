@@ -72,5 +72,25 @@ namespace Pansiyon_Kayıt_Otomasyonu
         {
             MessageBox.Show("Yeşil renkli butonlar boş odaları gösterir");
         }
+
+        private void DtpCikisTarihi_ValueChanged(object sender, EventArgs e)
+        {
+            int Ucret;
+            DateTime KucukTarih = Convert.ToDateTime(DtpGirisTarihi.Text);
+            DateTime BuyukTarih = Convert.ToDateTime(DtpCikisTarihi.Text);
+
+            TimeSpan Sonuc = BuyukTarih - KucukTarih;
+
+            label2.Text = Sonuc.TotalDays.ToString();
+
+            Ucret = Convert.ToInt32(label2.Text)*50;
+            TxtUcret.Text = Ucret.ToString();
+
+
+
+
+        }
+
+        
     }
 }
