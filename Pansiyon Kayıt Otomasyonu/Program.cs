@@ -13,7 +13,7 @@ namespace Pansiyon_Kayıt_Otomasyonu
             ApplicationConfiguration.Initialize();
             //Program hangi formdan başlayacaksa buraya yazılır.
             //örn: new Form1()
-            Application.Run(new FrmAnaForm());
+            Application.Run(new FrmOdalar());
         }
     }
 }

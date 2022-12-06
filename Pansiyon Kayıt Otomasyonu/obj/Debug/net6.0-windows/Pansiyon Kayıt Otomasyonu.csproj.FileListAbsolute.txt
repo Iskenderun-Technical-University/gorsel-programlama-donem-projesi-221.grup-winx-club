@@ -37,3 +37,4 @@ C:\Users\Ayşegül\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-c
 C:\Users\Ayşegül\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.pdb
 C:\Users\Ayşegül\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon Kayıt Otomasyonu.genruntimeconfig.cache
 C:\Users\Ayşegül\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\ref\Pansiyon Kayıt Otomasyonu.dll
+C:\Users\Ayşegül\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\Pansiyon Kayıt Otomasyonu\obj\Debug\net6.0-windows\Pansiyon_Kayıt_Otomasyonu.FrmOdalar.resources
