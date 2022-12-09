@@ -13,6 +13,7 @@ using System.Data.SqlTypes;
 
 namespace Pansiyon_Kayıt_Otomasyonu
 {
+
     public partial class FrmYeniMusteri : Form
     {
         public FrmYeniMusteri()

@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace PansiyonOtomasyonKayit
 {
     partial class Form1
     {

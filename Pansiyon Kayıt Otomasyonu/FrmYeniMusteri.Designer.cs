@@ -394,6 +394,7 @@
             this.BtnOda1.TabIndex = 9;
             this.BtnOda1.Text = "1";
             this.BtnOda1.UseVisualStyleBackColor = false;
+            this.BtnOda1.Click += new System.EventHandler(this.BtnOda1_Click);
             // 
             // BtnBosOda
             // 
