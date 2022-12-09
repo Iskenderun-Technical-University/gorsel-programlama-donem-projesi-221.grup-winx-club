@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
+
 
 namespace Pansiyon_Kayıt_Otomasyonu
 {
@@ -91,6 +94,9 @@ namespace Pansiyon_Kayıt_Otomasyonu
 
         }
 
-        
+        private void BtnKaydet_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.TxtUcret = new System.Windows.Forms.TextBox();
@@ -60,7 +61,6 @@
             this.BtnOda1 = new System.Windows.Forms.Button();
             this.BtnBosOda = new System.Windows.Forms.Button();
             this.BtnDoluOda = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +93,16 @@
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Müşteri Bilgileri";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(307, 386);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 20);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "0";
             // 
             // textBox1
             // 
@@ -141,6 +151,7 @@
             this.BtnKaydet.TabIndex = 34;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // DtpCikisTarihi
             // 
@@ -406,16 +417,6 @@
             this.BtnDoluOda.UseVisualStyleBackColor = false;
             this.BtnDoluOda.Click += new System.EventHandler(this.BtnDoluOda_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(307, 386);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 20);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "0";
-            // 
             // FrmYeniMusteri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -431,7 +432,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmYeniMusteri";
             this.Text = "Yeni Müşteri Kaydı";
-            //this.Load += new System.EventHandler(this.FrmYeniMusteri_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
