@@ -52,8 +52,38 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaForm.Designer.cs">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOdalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOdalar.Designer.cs">
+      <DependentUpon>FrmOdalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYeniMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYeniMusteri.Designer.cs">
+      <DependentUpon>FrmYeniMusteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnaForm.resx">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOdalar.resx">
+      <DependentUpon>FrmOdalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYeniMusteri.resx">
+      <DependentUpon>FrmYeniMusteri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

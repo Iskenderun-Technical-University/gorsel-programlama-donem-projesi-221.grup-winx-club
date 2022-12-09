@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace PansiyonOtomasyonKayit
 {
-    public partial class Form1 : Form
+    public partial class FrmAdminGiris : Form
     {
-        public Form1()
+        public FrmAdminGiris()
         {
             InitializeComponent();
+        }
+
+        private void BtnGirisYap_Click(object sender, EventArgs e)
+        {
+            if (TxtKullaniciAdi.Text == "admin" && TxtSifre.Text=="123456")
+            {
+                FrmAnaForm fr = new FrmAnaForm();
+                fr.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı Adı veya Şifre hatalı");
+            }
         }
     }
 }
