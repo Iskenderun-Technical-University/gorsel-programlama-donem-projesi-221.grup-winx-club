@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace PansiyonOtomasyonKayit
 {
@@ -16,6 +18,7 @@ namespace PansiyonOtomasyonKayit
         {
             InitializeComponent();
         }
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-SJJ7N21\\SQLEXPRESS;Initial Catalog=\"Pansiyon Otomasyonu\";Integrated Security=True");
 
         private void BtnOda1_Click(object sender, EventArgs e)
         {
@@ -85,6 +88,16 @@ namespace PansiyonOtomasyonKayit
 
             Ucret = Convert.ToInt32(label10.Text) * 50;
             TxtUcret.Text = Ucret.ToString();
+
+        }
+
+        private void BtnKaydet_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Musteri_Ekle(Adi,Soyadi,Cinsiyet,Telefon,Mail,TC,OdaNo,Ucret,GirisTarihi,CikisTarihi) values('" + TxtAdi.Text + "' , '" + TxtSoyadi.Text + "' , '" + comboBox1.Text +"','"+ MskTxtTelefon.Text+"','"+TxtMail.Text+ "','"+TxtOdaNo.Text+"' + '"+ TxtUcret.Text+"' , '" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"' , '" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Kayıt hatasız yapılmıştır");
 
         }
     }
