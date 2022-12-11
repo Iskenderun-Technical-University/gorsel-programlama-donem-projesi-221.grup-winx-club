@@ -94,7 +94,7 @@ namespace PansiyonOtomasyonKayit
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into Musteri_Ekle(Adi,Soyadi,Cinsiyet,Telefon,Mail,TC,OdaNo,Ucret,GirisTarihi,CikisTarihi) values('" + TxtAdi.Text + "' , '" + TxtSoyadi.Text + "' , '" + comboBox1.Text +"','"+ MskTxtTelefon.Text+"','"+TxtMail.Text+ "','"+TxtOdaNo.Text+"' + '"+ TxtUcret.Text+"' , '" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"' , '" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"')", baglanti);
+            SqlCommand komut = new SqlCommand("insert into Musteri_Ekle (Adi,Soyadi,Cinsiyet,Telefon,Mail,TC,OdaNo,Ucret,GirisTarihi,CikisTarihi) values('" + TxtAdi.Text + "' , '" + TxtSoyadi.Text + "' , '" + comboBox1.Text +"','"+ MskTxtTelefon.Text+"','"+TxtMail.Text+ "','" + TxtTCKimlikNo.Text+"','"+TxtOdaNo.Text+"' , '"+ TxtUcret.Text+"' , '" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"' , '" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"')", baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Kayıt hatasız yapılmıştır");

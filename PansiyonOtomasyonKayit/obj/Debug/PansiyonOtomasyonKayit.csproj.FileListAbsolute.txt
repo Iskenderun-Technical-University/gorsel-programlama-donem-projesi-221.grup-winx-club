@@ -12,3 +12,4 @@ C:\Users\Ayşegül\Desktop\DenemeGithub\PansiyonOtomasyonKayit\obj\Debug\Pansiyo
 C:\Users\Ayşegül\Desktop\DenemeGithub\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.FrmAdminGiris.resources
 C:\Users\Ayşegül\Desktop\DenemeGithub\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.FrmAnaForm.resources
 C:\Users\Ayşegül\Desktop\DenemeGithub\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.FrmOdalar.resources
+C:\Users\Ayşegül\Desktop\DenemeGithub\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.FrmMusteriler2.resources

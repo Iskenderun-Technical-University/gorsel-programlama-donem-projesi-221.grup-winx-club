@@ -30,6 +30,11 @@ namespace PansiyonOtomasyonKayit
             fr.Show();
 
         }
-       
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmMusteriler2 fr = new FrmMusteriler2();
+            fr.Show();
+        }
     }
 }
