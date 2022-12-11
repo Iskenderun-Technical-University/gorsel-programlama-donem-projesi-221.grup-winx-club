@@ -18,18 +18,20 @@ namespace PansiyonOtomasyonKayit
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection (@"Data Source=DESKTOP-SJJ7N21\\SQLEXPRESS;Initial Catalog=PansiyonOtomasyonu;Integrated Security=True");
+
+        SqlConnection baglanti = new SqlConnection (@"Data Source=DESKTOP-SJJ7N21\SQLEXPRESS;Initial Catalog=""Pansiyon Otomasyonu"";Integrated Security=True");
          private void verilerigoster()
         {
             listView1.Items.Clear();
-            baglanti.Open();
+            
             SqlCommand komut = new SqlCommand("select * from Musteri_Ekle", baglanti);
+            baglanti.Open();
             SqlDataReader oku = komut.ExecuteReader();
 
             while (oku.Read())
             {
                 ListViewItem ekle = new ListViewItem();
-                ekle.Text = oku["Musteriid"].ToString();
+                ekle.Text = oku["Musteriide"].ToString();
                 ekle.SubItems.Add(oku["Adi"].ToString());
                 ekle.SubItems.Add(oku["Soyadi"].ToString());
                 ekle.SubItems.Add(oku["Cinsiyet"].ToString()); 
