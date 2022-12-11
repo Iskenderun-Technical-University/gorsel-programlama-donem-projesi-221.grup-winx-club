@@ -36,5 +36,10 @@ namespace PansiyonOtomasyonKayit
             FrmMusteriler2 fr = new FrmMusteriler2();
             fr.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ayçiçeği Pansiyon Kayıt Uygulaması");
+        }
     }
 }

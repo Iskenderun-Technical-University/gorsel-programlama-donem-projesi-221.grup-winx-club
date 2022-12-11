@@ -184,6 +184,7 @@
             this.BtnAra.TabIndex = 4;
             this.BtnAra.Text = "Ara";
             this.BtnAra.UseVisualStyleBackColor = true;
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // comboBox1
             // 
