@@ -53,6 +53,55 @@ namespace PansiyonOtomasyonKayit
         {
             verilerigoster();
         }
+        int ide = 0;
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ide = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+            TxtAdi.Text = listView1.SelectedItems[0].SubItems[1].Text;//adını yazdırmak için
+            TxtSoyadi.Text = listView1.SelectedItems[0].SubItems[2].Text;
+            comboBox1.Text = listView1.SelectedItems[0].SubItems[3].Text;
+            MskTxtTelefon.Text = listView1.SelectedItems[0].SubItems[4].Text;
+            TxtMail.Text = listView1.SelectedItems[0].SubItems[5].Text;
+            TxtTCKimlikNo.Text = listView1.SelectedItems[0].SubItems[6].Text;
+            TxtOdaNo.Text = listView1.SelectedItems[0].SubItems[7].Text;
+            TxtUcret.Text = listView1.SelectedItems[0].SubItems[8].Text;
+            DtpGirisTarihi.Text = listView1.SelectedItems[0].SubItems[9].Text;
+            DtpCikisTarihi.Text = listView1.SelectedItems[0].SubItems[10].Text; 
+
+        }
+
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("delete fron Musteri_Ekle where Musteriide (" + ide + ")", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            verilerigoster();
+
+        }
+
+        private void BtnTemizle_Click(object sender, EventArgs e)
+        {
+            TxtAdi.Clear();
+            TxtSoyadi.Clear();
+            comboBox1.Text = "";
+            MskTxtTelefon.Clear();
+            TxtMail.Text = "";
+            TxtTCKimlikNo.Clear();
+            TxtOdaNo.Clear();
+            TxtUcret.Clear();
+            DtpGirisTarihi.Text = "";
+            DtpCikisTarihi.Text = "";
+        }
+
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("update Musteri_Ekle set Adi='" + TxtAdi.Text + "',Soyadi='" + TxtSoyadi.Text + "',Cinsiyet='" + comboBox1.Text + "',Telefon='" + MskTxtTelefon.Text + "',Mail='"+TxtMail.Text+"',TC='"+TxtTCKimlikNo.Text+"',Ucret='"+TxtUcret.Text+"',GirisTarihi='"+DtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"',CikisTarihi='" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"' where Musteriide=" + ide + "", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            verilerigoster();
+        }
     }
 }
 //Data Source=DESKTOP-SJJ7N21\SQLEXPRESS;Initial Catalog="Pansiyon Otomasyonu";Integrated Security=True
