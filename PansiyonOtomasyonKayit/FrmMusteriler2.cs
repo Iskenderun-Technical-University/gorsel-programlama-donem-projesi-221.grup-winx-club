@@ -20,6 +20,7 @@ namespace PansiyonOtomasyonKayit
         }
 
         SqlConnection baglanti = new SqlConnection (@"Data Source=DESKTOP-KF6V5PA\SQLEXPRESS01;Initial Catalog=""Pansiyon Otomasyonu"";Integrated Security=True");
+        //deneme
          private void verilerigoster()
         {
             listView1.Items.Clear();
