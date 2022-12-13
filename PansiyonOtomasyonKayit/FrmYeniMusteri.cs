@@ -18,7 +18,7 @@ namespace PansiyonOtomasyonKayit
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-SJJ7N21\\SQLEXPRESS;Initial Catalog=\"Pansiyon Otomasyonu\";Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-KF6V5PA\\SQLEXPRESS01;Initial Catalog=\"Pansiyon Otomasyonu\";Integrated Security=True");
 
         private void BtnOda1_Click(object sender, EventArgs e)
         {
