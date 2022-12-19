@@ -39,7 +39,13 @@ namespace PansiyonOtomasyonKayit
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ayçiçeği Pansiyon Kayıt Uygulaması");
+            MessageBox.Show("Paradise Pansiyon Kayıt Uygulaması");
+        }
+
+        private void button3_Clik(object sender, EventArgs e)
+        {
+            FrmOdalar fr = new FrmOdalar();
+            fr.Show();
         }
     }
 }
