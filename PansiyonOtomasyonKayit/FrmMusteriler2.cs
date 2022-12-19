@@ -73,12 +73,96 @@ namespace PansiyonOtomasyonKayit
 
         private void BtnSil_Click(object sender, EventArgs e)
         {
-            baglanti.Open();
-            SqlCommand komut = new SqlCommand("delete fron Musteri_Ekle where Musteriide (" + ide + ")", baglanti);
-            komut.ExecuteNonQuery();
-            baglanti.Close();
-            verilerigoster();
+            if (TxtOdaNo.Text == "1")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda1", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
 
+            }
+            if (TxtOdaNo.Text == "2")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda2", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "2")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda2", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "3")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda3", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "4")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda4", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "5")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda5", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "6")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda6", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "7")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda7", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "8")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda8", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
+            if (TxtOdaNo.Text == "9")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete fron Oda9", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verilerigoster();
+
+            }
         }
 
         private void BtnTemizle_Click(object sender, EventArgs e)
@@ -134,3 +218,4 @@ namespace PansiyonOtomasyonKayit
     }
 }
 //Data Source=DESKTOP-SJJ7N21\SQLEXPRESS;Initial Catalog="Pansiyon Otomasyonu";Integrated Security=True
+

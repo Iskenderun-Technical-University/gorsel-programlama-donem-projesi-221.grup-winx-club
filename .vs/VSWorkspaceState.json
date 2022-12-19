@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PansiyonOtomasyonKayit"
   ],
-  "SelectedNode": "\\Pansiyon Kayıt Otomasyonu.sln",
+  "SelectedNode": "\\PansiyonOtomasyonKayit\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

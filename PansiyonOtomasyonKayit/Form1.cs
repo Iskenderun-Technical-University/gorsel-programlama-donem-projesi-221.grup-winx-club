@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace PansiyonOtomasyonKayit
 {
@@ -17,18 +19,22 @@ namespace PansiyonOtomasyonKayit
             InitializeComponent();
         }
 
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-KF6V5PA\\SQLEXPRESS01;Initial Catalog=\"Pansiyon Otomasyonu\";Integrated Security=True");
+
         private void BtnGirisYap_Click(object sender, EventArgs e)
         {
-            if (TxtKullaniciAdi.Text == "admin" && TxtSifre.Text=="123456")
+            try
             {
-                FrmAnaForm fr = new FrmAnaForm();
-                fr.Show();
-                this.Hide();
+                baglanti.Open();
+                string sql="select * from Admin_Giris where"
+
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Kullanıcı Adı veya Şifre hatalı");
+
+                throw;
             }
+
         }
     }
 }
