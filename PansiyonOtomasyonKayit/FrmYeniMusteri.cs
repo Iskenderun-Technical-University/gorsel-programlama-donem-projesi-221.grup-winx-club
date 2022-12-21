@@ -104,13 +104,19 @@ namespace PansiyonOtomasyonKayit
         private void FrmYeniMusteri_Load(object sender , EventArgs e)
         {
 
+            
+            SqlCommand komut1 = new SqlCommand("select count(*) from Oda1;", baglanti);
             baglanti.Open();
-            SqlCommand komut1 = new SqlCommand("select * from Oda1 ", baglanti);
             SqlDataReader oku1 = komut1.ExecuteReader();
+
+            MessageBox.Show(oku1.Read().ToString());
 
             while (oku1.Read()) ;
             {
+                Console.WriteLine(oku1.ToString());
+                
                 BtnOda1.Text = oku1["Adi"].ToString() + " " + oku1["Soyadi"].ToString();
+
             }
             baglanti.Close();
             if (BtnOda1.Text != "1")

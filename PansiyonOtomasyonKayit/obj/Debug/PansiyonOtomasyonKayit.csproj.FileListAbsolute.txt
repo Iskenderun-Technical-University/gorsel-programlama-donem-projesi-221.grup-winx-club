@@ -13,3 +13,4 @@ C:\Users\PC\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\Pan
 C:\Users\PC\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.csproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.exe
 C:\Users\PC\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.pdb
+C:\Users\PC\source\repos\gorsel-programlama-donem-projesi-221.grup-winx-club\PansiyonOtomasyonKayit\obj\Debug\PansiyonOtomasyonKayit.FrmPersonelMaas.resources

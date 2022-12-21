@@ -70,6 +70,12 @@
     <Compile Include="FrmOdalar.Designer.cs">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPersonelMaas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelMaas.Designer.cs">
+      <DependentUpon>FrmPersonelMaas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmYeniMusteri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOdalar.resx">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelMaas.resx">
+      <DependentUpon>FrmPersonelMaas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmYeniMusteri.resx">
       <DependentUpon>FrmYeniMusteri.cs</DependentUpon>

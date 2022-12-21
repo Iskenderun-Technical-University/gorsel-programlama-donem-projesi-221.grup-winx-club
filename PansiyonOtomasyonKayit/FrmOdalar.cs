@@ -21,11 +21,14 @@ namespace PansiyonOtomasyonKayit
 
         private void FrmOdalar_Load(object sender, EventArgs e)
         {
-            baglanti.Open();
+            
             SqlCommand komut1 = new SqlCommand("select * from Oda1 ", baglanti);
+            baglanti.Open();
             SqlDataReader oku1 = komut1.ExecuteReader();
 
-            while (oku1.Read()) ;
+
+
+            while (oku1.Read());
             {
                 BtnOda1.Text=oku1["Adi"].ToString() + " " + oku1["Soyadi"].ToString();
             }

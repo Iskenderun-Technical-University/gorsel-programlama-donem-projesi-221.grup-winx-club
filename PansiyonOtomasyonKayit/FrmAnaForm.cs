@@ -21,7 +21,7 @@ namespace PansiyonOtomasyonKayit
         {
             FrmAdminGiris fr = new FrmAdminGiris();
             fr.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,5 +47,19 @@ namespace PansiyonOtomasyonKayit
             FrmOdalar fr = new FrmOdalar();
             fr.Show();
         }
+
+
+        private void FrmAnaForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmPersonelMaas fr = new FrmPersonelMaas();
+            fr.Show();
+        }
     }
 }
+
