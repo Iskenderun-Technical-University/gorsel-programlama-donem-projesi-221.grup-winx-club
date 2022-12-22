@@ -23,21 +23,19 @@ namespace PansiyonOtomasyonKayit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int personel;
-            personel = Convert.ToInt16(textBox1.Text);
-            LblPersonelMaas.Text = (personel * 1500).ToString();
-            
-        }
-
-        private void FrmPersonelMaas_Load(object sender, EventArgs e)
-        {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("Select sum(Ucret) as toplam from MusteriEkle", baglanti);
+            SqlCommand komut = new SqlCommand("Select sum(Ucret) as toplam from Musteri_Ekle", baglanti);
             SqlDataReader oku = komut.ExecuteReader();
             while (oku.Read())
             {
+                LblKasaToplam.Text = oku["toplam"].ToString();
+
             }
             baglanti.Close();
+
+            
+            int personel = Convert.ToInt16(textBox1.Text);
+            LblPersonelMaas.Text = (personel * 1500).ToString();
         }
     }
 }

@@ -42,108 +42,108 @@
             // BtnOda9
             // 
             this.BtnOda9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda9.Location = new System.Drawing.Point(648, 384);
-            this.BtnOda9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda9.Location = new System.Drawing.Point(802, 483);
+            this.BtnOda9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda9.Name = "BtnOda9";
-            this.BtnOda9.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda9.TabIndex = 17;
+            this.BtnOda9.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda9.TabIndex = 26;
             this.BtnOda9.Text = "9";
             this.BtnOda9.UseVisualStyleBackColor = false;
             // 
             // BtnOda8
             // 
             this.BtnOda8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda8.Location = new System.Drawing.Point(348, 384);
-            this.BtnOda8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda8.Location = new System.Drawing.Point(465, 483);
+            this.BtnOda8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda8.Name = "BtnOda8";
-            this.BtnOda8.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda8.TabIndex = 16;
+            this.BtnOda8.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda8.TabIndex = 25;
             this.BtnOda8.Text = "8";
             this.BtnOda8.UseVisualStyleBackColor = false;
             // 
             // BtnOda7
             // 
             this.BtnOda7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda7.Location = new System.Drawing.Point(43, 384);
-            this.BtnOda7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda7.Location = new System.Drawing.Point(121, 483);
+            this.BtnOda7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda7.Name = "BtnOda7";
-            this.BtnOda7.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda7.TabIndex = 15;
+            this.BtnOda7.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda7.TabIndex = 24;
             this.BtnOda7.Text = "7";
             this.BtnOda7.UseVisualStyleBackColor = false;
             // 
             // BtnOda6
             // 
             this.BtnOda6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda6.Location = new System.Drawing.Point(648, 212);
-            this.BtnOda6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda6.Location = new System.Drawing.Point(802, 268);
+            this.BtnOda6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda6.Name = "BtnOda6";
-            this.BtnOda6.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda6.TabIndex = 14;
+            this.BtnOda6.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda6.TabIndex = 23;
             this.BtnOda6.Text = "6";
             this.BtnOda6.UseVisualStyleBackColor = false;
             // 
             // BtnOda5
             // 
             this.BtnOda5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda5.Location = new System.Drawing.Point(348, 212);
-            this.BtnOda5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda5.Location = new System.Drawing.Point(465, 268);
+            this.BtnOda5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda5.Name = "BtnOda5";
-            this.BtnOda5.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda5.TabIndex = 13;
+            this.BtnOda5.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda5.TabIndex = 22;
             this.BtnOda5.Text = "5";
             this.BtnOda5.UseVisualStyleBackColor = false;
             // 
             // BtnOda4
             // 
             this.BtnOda4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda4.Location = new System.Drawing.Point(43, 212);
-            this.BtnOda4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda4.Location = new System.Drawing.Point(121, 268);
+            this.BtnOda4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda4.Name = "BtnOda4";
-            this.BtnOda4.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda4.TabIndex = 12;
+            this.BtnOda4.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda4.TabIndex = 21;
             this.BtnOda4.Text = "4";
             this.BtnOda4.UseVisualStyleBackColor = false;
             // 
             // BtnOda3
             // 
             this.BtnOda3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda3.Location = new System.Drawing.Point(648, 42);
-            this.BtnOda3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda3.Location = new System.Drawing.Point(802, 55);
+            this.BtnOda3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda3.Name = "BtnOda3";
-            this.BtnOda3.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda3.TabIndex = 11;
+            this.BtnOda3.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda3.TabIndex = 20;
             this.BtnOda3.Text = "3";
             this.BtnOda3.UseVisualStyleBackColor = false;
             // 
             // BtnOda2
             // 
             this.BtnOda2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda2.Location = new System.Drawing.Point(348, 42);
-            this.BtnOda2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda2.Location = new System.Drawing.Point(465, 55);
+            this.BtnOda2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda2.Name = "BtnOda2";
-            this.BtnOda2.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda2.TabIndex = 10;
+            this.BtnOda2.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda2.TabIndex = 19;
             this.BtnOda2.Text = "2";
             this.BtnOda2.UseVisualStyleBackColor = false;
             // 
             // BtnOda1
             // 
             this.BtnOda1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BtnOda1.Location = new System.Drawing.Point(43, 42);
-            this.BtnOda1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOda1.Location = new System.Drawing.Point(121, 55);
+            this.BtnOda1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnOda1.Name = "BtnOda1";
-            this.BtnOda1.Size = new System.Drawing.Size(247, 124);
-            this.BtnOda1.TabIndex = 9;
+            this.BtnOda1.Size = new System.Drawing.Size(278, 155);
+            this.BtnOda1.TabIndex = 18;
             this.BtnOda1.Text = "1";
             this.BtnOda1.UseVisualStyleBackColor = false;
             // 
             // FrmOdalar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.BtnOda9);
             this.Controls.Add(this.BtnOda8);
             this.Controls.Add(this.BtnOda7);
@@ -153,7 +153,7 @@
             this.Controls.Add(this.BtnOda3);
             this.Controls.Add(this.BtnOda2);
             this.Controls.Add(this.BtnOda1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmOdalar";
             this.Text = "FrmOdalar";
             this.Load += new System.EventHandler(this.FrmOdalar_Load);
